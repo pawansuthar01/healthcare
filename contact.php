@@ -18,7 +18,7 @@ require_once __DIR__ . '/includes/header.php';
 ?>
 <div class="page-hero">
   <div class="container">
-    <span class="eyebrow" style="color:var(--green-200)">We'd Love to Hear From You</span>
+    <span class="eyebrow">We'd Love to Hear From You</span>
     <h1>Get in Touch</h1>
     <p>Questions about our products, distribution inquiries, or just want to say hello — we're here.</p>
   </div>
@@ -52,14 +52,14 @@ require_once __DIR__ . '/includes/header.php';
             <a href="tel:<?= preg_replace('/[^+\d]/','',(string)SITE_PHONE) ?>"><?= SITE_PHONE ?></a>
           </div>
         </div>
-        <div style="border-top:1px solid rgba(255,255,255,.1);margin-top:1.5rem;padding-top:1.5rem">
-          <p style="font-size:.85rem;color:rgba(255,255,255,.5)"><strong style="color:rgba(255,255,255,.7)">Business Hours</strong><br>Monday – Friday: 9:00 AM – 5:00 PM EST</p>
+        <div class="contact-business-hours">
+          <p class="contact-business-hours__text"><strong>Business Hours</strong><br>Monday – Friday: 9:00 AM – 5:00 PM EST</p>
         </div>
       </div>
 
       <!-- Form -->
       <div class="contact-form-wrap reveal delay-1">
-        <h2 style="margin-bottom:1.5rem;font-size:1.8rem">Send a Message</h2>
+        <h2 class="contact-form-title">Send a Message</h2>
 
         <?php if($status==='success'): ?>
           <div class="alert alert-success">✅ Thank you! Your message has been received. We'll get back to you within 1–2 business days.</div>
@@ -87,7 +87,7 @@ require_once __DIR__ . '/includes/header.php';
             <textarea id="fmessage" name="message" required placeholder="Tell us how we can help…"><?= htmlspecialchars($_POST['message'] ?? '') ?></textarea>
           </div>
           <div class="form-submit">
-            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;padding:1.1rem">Send Message</button>
+            <button type="submit" class="btn btn-primary">Send Message</button>
           </div>
         </form>
       </div>
@@ -96,13 +96,11 @@ require_once __DIR__ . '/includes/header.php';
   </div>
 </section>
 
-<!-- Map Placeholder -->
-<div style="background:var(--gray-100);height:400px;display:flex;align-items:center;justify-content:center;border-top:1px solid var(--gray-200)">
-  <div style="text-align:center;color:var(--gray-400)">
-    <div style="font-size:3rem;margin-bottom:1rem">🗺️</div>
-    <p style="font-weight:600;color:var(--gray-700)">Scarborough, Ontario M1P 1R5, Canada</p>
-    <p style="font-size:.85rem">Google Maps integration available on the live server</p>
-  </div>
+<!-- Google Maps -->
+<div class="map-container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6719.280195802406!2d-79.2861996622385!3d43.75584585583369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d1f72731e74b%3A0x955dd44249e29f82!2s127%20Vauxhall%20Dr%2C%20Scarborough%2C%20ON%20M1P%201R5%2C%20Canada!5e0!3m2!1sen!2sin!4v1779823461063!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+ 
 </div>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>

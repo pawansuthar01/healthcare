@@ -9,7 +9,7 @@ $page_desc  = $page_desc  ?? 'Torcy Healthcare — Premium nutraceuticals for yo
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title><?= htmlspecialchars($page_title) ?> | Torcy Healthcare</title>
 <meta name="description" content="<?= htmlspecialchars($page_desc) ?>">
-<meta name="theme-color" content="#1B4332">
+<meta name="theme-color" content="#00B4D8">
 <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 <link rel="apple-touch-icon" href="/assets/images/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">

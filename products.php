@@ -7,7 +7,7 @@ $products = get_products();
 
 <div class="page-hero">
   <div class="container">
-    <span class="eyebrow" style="color:var(--green-200)">Torcy Formulations</span>
+    <span class="eyebrow">Torcy Formulations</span>
     <h1>Premium Supplements</h1>
     <p>Three targeted formulas, each engineered for maximum bioavailability and real health outcomes.</p>
   </div>

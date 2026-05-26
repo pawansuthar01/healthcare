@@ -5,7 +5,7 @@ require_once __DIR__ . '/includes/header.php';
 ?>
 <div class="page-hero">
   <div class="container">
-    <span class="eyebrow" style="color:var(--green-200)">The Torcy Difference</span>
+    <span class="eyebrow">The Torcy Difference</span>
     <h1>Why Choose Us?</h1>
     <p>We hold our formulations to a higher standard — here is exactly what that means for your health.</p>
   </div>

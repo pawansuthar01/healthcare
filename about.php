@@ -5,7 +5,7 @@ require_once __DIR__ . '/includes/header.php';
 ?>
 <div class="page-hero">
   <div class="container">
-    <span class="eyebrow" style="color:var(--green-200)">Our Story</span>
+    <span class="eyebrow">Our Story</span>
     <h1>The Torcy Story</h1>
     <p>A Canadian brand built on one belief: better nutrition starts with better science.</p>
   </div>
@@ -20,8 +20,8 @@ require_once __DIR__ . '/includes/header.php';
       <p>Based in Scarborough, Ontario, we saw a growing need for trustworthy, bioavailable supplements for every stage of life. Whether you're a new mother, a growing child, a working adult, or a senior — we have a formula for you.</p>
       <a href="/why-us.php" class="btn btn-outline" style="margin-top:1.5rem">Our Quality Promise</a>
     </div>
-    <div class="reveal delay-1" style="background:var(--green-900);border-radius:var(--r-lg);padding:3rem;color:#fff;position:relative;overflow:hidden">
-      <div style="position:absolute;top:-60px;right:-60px;width:200px;height:200px;background:radial-gradient(circle,var(--green-500) 0%,transparent 70%);opacity:.5"></div>
+    <div class="reveal delay-1" style="background:var(--green-700);border-radius:var(--r-lg);padding:3rem;color:#fff;position:relative;overflow:hidden">
+      <div style="position:absolute;top:-60px;right:-60px;width:200px;height:200px;background:radial-gradient(circle,var(--coral) 0%,transparent 70%);opacity:.5"></div>
       <span style="font-size:4rem;display:block;margin-bottom:1.5rem">🇮🇳</span>
       <h3 style="color:#fff;font-size:1.8rem;margin-bottom:1rem">Proudly indian.</h3>
       <p style="color:rgba(255,255,255,.75)">Headquartered in Scarborough, Ontario. We adhere to some of the strictest health product standards in the world, ensuring every Torcy product is safe, pure and effective.</p>
@@ -36,12 +36,12 @@ require_once __DIR__ . '/includes/header.php';
       <span class="eyebrow reveal">Vision & Mission</span>
       <h2 class="reveal">What Drives Us</h2>
       <div class="grid-2 reveal delay-1" style="text-align:left;margin-top:2.5rem;gap:1.5rem">
-        <div class="info-box info-box--green" style="border-left-width:4px;border-left-style:solid;border-color:var(--gold)">
-          <h4 style="color:var(--gold)">🎯 Our Vision</h4>
+        <div class="info-box info-box--green" style="border-left-width:4px;border-left-style:solid;border-color:var(--green-500)">
+          <h4 style="color:var(--green-500)">🎯 Our Vision</h4>
           <p>To be the most trusted name in family nutrition — recognized globally for uncompromising quality and measurable health outcomes.</p>
         </div>
-        <div class="info-box info-box--green" style="border-left-width:4px;border-left-style:solid;border-color:var(--green-700)">
-          <h4 style="color:var(--green-700)">🚀 Our Mission</h4>
+        <div class="info-box info-box--green" style="border-left-width:4px;border-left-style:solid;border-color:var(--coral)">
+          <h4 style="color:var(--coral)">🚀 Our Mission</h4>
           <p>To engineer premium dietary supplements that bridge nutritional gaps in modern diets, using evidence-backed ingredients in highly bioavailable forms.</p>
         </div>
       </div>

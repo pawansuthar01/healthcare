@@ -12,7 +12,7 @@ $products = get_products();
   <div class="hero-blob"></div>
   <div class="container">
     <div class="hero-content">
-      <span class="eyebrow" style="color:var(--green-200)">🇮🇳 indian Nutraceuticals</span>
+      <span class="eyebrow">🇮🇳 indian Nutraceuticals</span>
       <h1>
         Nutrition That<br>
         <em>Actually Works.</em>
